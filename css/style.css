@@ -1,5 +1,39 @@
 .main-content {
     padding: 40px;
-    margin-top: 150px;
+    margin-top: 50px;
     box-shadow: 0 12px 25px 5px #e0dddd;
+}
+
+#transaction-area {
+    display: none;
+    margin-top: 100px;
+}
+
+.deposit {
+    background-color: lightsalmon;
+}
+
+.withdraw {
+    background-color: lightseagreen;
+}
+
+.balance {
+    background-color: orange;
+}
+
+.status {
+    padding: 40px;
+    margin: 0 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.status h5 {
+    font-size: 17px;
+    margin: 0;
+}
+
+.status h2 {
+    font-weight: 700;
+    font-size: 35px;
 }
